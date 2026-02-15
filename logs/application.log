@@ -1,0 +1,234 @@
+2026-02-12 16:11:29.533 [main] INFO  c.d.c.ChallengeApplicationTests - Starting ChallengeApplicationTests using Java 17.0.12 with PID 4856 (started by nicol in C:\Users\nicol\Desktop\Nico\Proyectos\challenge Dekra)
+2026-02-12 16:11:29.536 [main] INFO  c.d.c.ChallengeApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-02-12 16:11:30.374 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-12 16:11:30.508 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interface.
+2026-02-12 16:11:31.261 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-12 16:11:31.544 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:productdb user=SA
+2026-02-12 16:11:31.546 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-12 16:11:31.708 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-12 16:11:31.754 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-12 16:11:31.801 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-12 16:11:32.186 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-12 16:11:32.236 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-12 16:11:32.258 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-12 16:11:32.990 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-12 16:11:32.993 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-12 16:11:34.384 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-12 16:11:35.255 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:productdb'
+2026-02-12 16:11:35.391 [main] INFO  c.d.c.ChallengeApplicationTests - Started ChallengeApplicationTests in 6.289 seconds (process running for 7.395)
+2026-02-12 16:11:36.155 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-12 16:11:36.165 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-12 16:11:36.172 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-12 16:11:41.615 [main] INFO  c.d.challenge.ChallengeApplication - Starting ChallengeApplication using Java 17.0.12 with PID 23452 (C:\Users\nicol\Desktop\Nico\Proyectos\challenge Dekra\target\classes started by nicol in C:\Users\nicol\Desktop\Nico\Proyectos\challenge Dekra)
+2026-02-12 16:11:41.617 [main] INFO  c.d.challenge.ChallengeApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-12 16:11:42.247 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-12 16:11:42.328 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+2026-02-12 16:11:43.061 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-12 16:11:43.079 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-12 16:11:43.079 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-12 16:11:43.168 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-12 16:11:43.170 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1504 ms
+2026-02-12 16:11:43.288 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-12 16:11:43.460 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:productdb user=SA
+2026-02-12 16:11:43.465 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-12 16:11:43.558 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-12 16:11:43.622 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-12 16:11:43.677 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-12 16:11:44.080 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-12 16:11:44.148 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-12 16:11:44.186 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-12 16:11:45.498 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-12 16:11:45.502 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-12 16:11:46.240 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-12 16:11:46.886 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:productdb'
+2026-02-12 16:11:47.084 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-12 16:11:47.103 [main] INFO  c.d.challenge.ChallengeApplication - Started ChallengeApplication in 6.078 seconds (process running for 6.542)
+2026-02-12 16:12:01.965 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-12 16:12:01.965 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-12 16:12:01.965 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-02-12 16:12:02.140 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        pe1_0.id,
+        pe1_0.description,
+        pe1_0.name,
+        pe1_0.price 
+    from
+        product pe1_0 
+    where
+        pe1_0.id=?
+2026-02-12 16:12:15.030 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        pe1_0.id,
+        pe1_0.description,
+        pe1_0.name,
+        pe1_0.price 
+    from
+        product pe1_0 
+    where
+        pe1_0.id=?
+2026-02-12 16:12:42.004 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-12 16:12:51.581 [main] INFO  c.d.challenge.ChallengeApplication - Starting ChallengeApplication using Java 17.0.12 with PID 10712 (C:\Users\nicol\Desktop\Nico\Proyectos\challenge Dekra\target\classes started by nicol in C:\Users\nicol\Desktop\Nico\Proyectos\challenge Dekra)
+2026-02-12 16:12:51.584 [main] INFO  c.d.challenge.ChallengeApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-12 16:12:52.248 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-12 16:12:52.315 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2026-02-12 16:12:52.924 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-12 16:12:52.934 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-12 16:12:52.934 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-12 16:12:52.978 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-12 16:12:52.978 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1356 ms
+2026-02-12 16:12:53.061 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-12 16:12:53.217 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:productdb user=SA
+2026-02-12 16:12:53.218 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-12 16:12:53.301 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-12 16:12:53.343 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-12 16:12:53.373 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-12 16:12:53.589 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-12 16:12:53.628 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-12 16:12:53.641 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-12 16:12:54.341 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-12 16:12:54.344 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-12 16:12:54.638 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-12 16:12:54.895 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:productdb'
+2026-02-12 16:12:54.972 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-12 16:12:54.981 [main] INFO  c.d.challenge.ChallengeApplication - Started ChallengeApplication in 3.883 seconds (process running for 4.343)
+2026-02-12 16:12:59.804 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-12 16:12:59.804 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-12 16:12:59.804 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-02-12 16:12:59.922 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        pe1_0.id,
+        pe1_0.description,
+        pe1_0.name,
+        pe1_0.price 
+    from
+        product pe1_0 
+    where
+        pe1_0.id=?
+2026-02-12 16:15:31.102 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-12 16:15:35.162 [main] INFO  c.d.challenge.ChallengeApplication - Starting ChallengeApplication using Java 17.0.12 with PID 27532 (C:\Users\nicol\Desktop\Nico\Proyectos\challenge Dekra\target\classes started by nicol in C:\Users\nicol\Desktop\Nico\Proyectos\challenge Dekra)
+2026-02-12 16:15:35.164 [main] INFO  c.d.challenge.ChallengeApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-12 16:15:35.662 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-12 16:15:35.742 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+2026-02-12 16:15:36.316 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-12 16:15:36.325 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-12 16:15:36.326 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-12 16:15:36.371 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-12 16:15:36.371 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1175 ms
+2026-02-12 16:15:36.468 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-12 16:15:36.672 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:productdb user=SA
+2026-02-12 16:15:36.673 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-12 16:15:36.765 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-12 16:15:36.807 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-12 16:15:36.834 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-12 16:15:37.063 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-12 16:15:37.096 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-12 16:15:37.109 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-12 16:15:37.704 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-12 16:15:37.706 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-12 16:15:37.952 [main] WARN  c.d.c.i.a.PerformanceLoggingAspect - ╔════════════════════════════════════════╗
+2026-02-12 16:15:37.953 [main] WARN  c.d.c.i.a.PerformanceLoggingAspect - ║  PerformanceLoggingAspect LOADED ✓    ║
+2026-02-12 16:15:37.953 [main] WARN  c.d.c.i.a.PerformanceLoggingAspect - ╚════════════════════════════════════════╝
+2026-02-12 16:15:37.974 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-12 16:15:38.232 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:productdb'
+2026-02-12 16:15:38.312 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-12 16:15:38.319 [main] INFO  c.d.challenge.ChallengeApplication - Started ChallengeApplication in 3.649 seconds (process running for 3.941)
+2026-02-12 16:15:47.146 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-12 16:15:47.146 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-12 16:15:47.146 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-02-12 16:15:47.273 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        pe1_0.id,
+        pe1_0.description,
+        pe1_0.name,
+        pe1_0.price 
+    from
+        product pe1_0 
+    where
+        pe1_0.id=?
+2026-02-12 16:16:06.062 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-12 16:16:06.299 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-12 16:16:06.302 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-12 16:16:06.305 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-12 16:16:06.307 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-12 16:17:14.870 [main] INFO  c.d.challenge.ChallengeApplication - Starting ChallengeApplication using Java 17.0.12 with PID 25136 (C:\Users\nicol\Desktop\Nico\Proyectos\challenge Dekra\target\classes started by nicol in C:\Users\nicol\Desktop\Nico\Proyectos\challenge Dekra)
+2026-02-12 16:17:14.872 [main] INFO  c.d.challenge.ChallengeApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-12 16:17:15.377 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-12 16:17:15.434 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2026-02-12 16:17:15.971 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-12 16:17:15.980 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-12 16:17:15.980 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-12 16:17:16.023 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-12 16:17:16.024 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1115 ms
+2026-02-12 16:17:16.101 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-12 16:17:16.258 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:productdb user=SA
+2026-02-12 16:17:16.261 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-12 16:17:16.339 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-12 16:17:16.377 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-12 16:17:16.407 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-12 16:17:16.604 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-12 16:17:16.638 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-12 16:17:16.651 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-12 16:17:17.240 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-12 16:17:17.279 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-12 16:17:17.335 [main] INFO  c.d.c.i.a.PerformanceLoggingAspect - Method com.dekra.challenge.infrastructure.config.BeanConfiguration.taxCalculatorFactory executed in 2 ms
+2026-02-12 16:17:17.566 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-12 16:17:17.831 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:productdb'
+2026-02-12 16:17:17.932 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-12 16:17:17.942 [main] INFO  c.d.challenge.ChallengeApplication - Started ChallengeApplication in 3.568 seconds (process running for 4.005)
+2026-02-12 16:17:21.196 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-12 16:17:21.198 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-12 16:17:21.200 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-02-12 16:17:21.425 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        pe1_0.id,
+        pe1_0.description,
+        pe1_0.name,
+        pe1_0.price 
+    from
+        product pe1_0 
+    where
+        pe1_0.id=?
+2026-02-12 16:17:21.519 [http-nio-8080-exec-1] INFO  c.d.c.i.a.PerformanceLoggingAspect - Method org.springframework.data.repository.CrudRepository.findById executed in 149 ms
+2026-02-12 16:17:21.519 [http-nio-8080-exec-1] INFO  c.d.c.i.a.PerformanceLoggingAspect - Method com.dekra.challenge.infrastructure.mapper.ProductMapperImpl.toDomain executed in 0 ms
+2026-02-12 16:17:21.519 [http-nio-8080-exec-1] INFO  c.d.c.i.a.PerformanceLoggingAspect - Method com.dekra.challenge.infrastructure.product.repository.persistence.out.adpater.ProductRepositoryAdapter.getById executed in 153 ms
+2026-02-12 16:17:21.519 [http-nio-8080-exec-1] INFO  c.d.c.i.a.PerformanceLoggingAspect - Method com.dekra.challenge.application.product.calculator.TaxCalculatorFactory.getTaxCalculator executed in 0 ms
+2026-02-12 16:17:21.519 [http-nio-8080-exec-1] INFO  c.d.c.i.a.PerformanceLoggingAspect - Method com.dekra.challenge.application.product.usercase.TaxCalculatorUserCaserImpl.calculateTax executed in 0 ms
+2026-02-12 16:17:21.519 [http-nio-8080-exec-1] INFO  c.d.c.i.a.PerformanceLoggingAspect - Method com.dekra.challenge.application.product.service.TaxCalculatorService.execute executed in 155 ms
+2026-02-12 16:17:21.532 [http-nio-8080-exec-1] INFO  c.d.c.i.a.PerformanceLoggingAspect - Method com.dekra.challenge.infrastructure.mapper.TaxMapperImpl.toResponse executed in 2 ms
+2026-02-12 16:17:21.532 [http-nio-8080-exec-1] INFO  c.d.c.i.a.PerformanceLoggingAspect - Method com.dekra.challenge.infrastructure.product.controller.in.adpater.ProductController.getTax executed in 168 ms
+2026-02-12 16:17:37.392 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
