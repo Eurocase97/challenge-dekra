@@ -12,7 +12,6 @@ INSERT INTO USERTABLE (email, password, role) VALUES
     ('user@dekra.com', '$2a$12$JnSXAwZ7yIe0fkTvoolV2uWJSqALOLA0teGQsM4AF/VVZSHXLBWZW', 'USER');
 
 /*
-
 admin@dekra.com  admin123	ADMIN
 user@dekra.com   user123	USER
  */
